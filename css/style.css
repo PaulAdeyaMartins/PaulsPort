@@ -1,0 +1,147 @@
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    color: #00FF00;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: center;
+  user-select: none;
+  text-shadow: 0 0 3px #000;
+
+}
+
+.nes-container {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    height: 525%;
+    width: 100%;
+    border-color: #00FF00;
+    border-width: 5px;
+    border-style: double;
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+  }
+
+.header {
+    position: absolute;
+    top: 0;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    z-index: 1;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.logo a {
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    scroll-snap-type: y mandatory;
+
+}
+
+section {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+section img {
+    float: left;
+    border-radius: 50px;
+    border-style: groove;
+    border-width: 10px;
+    border-color: #00FF00;
+    padding: 10px;
+    margin-left: 25px;
+    
+}
+
+section ul {
+   display: float;
+   list-style: square;
+   font-size: 20px;
+   text-shadow: 0 0 3px #000;
+}
+
+section ul li {
+
+    padding: 25px;
+    font-size: 15px;
+}
+
+section p {
+    text-shadow: 0 0 3px #000;
+    padding: 50px;
+}
+
+section aside {
+    display: block;
+    padding: 50px;
+}
+
+footer {
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer i {
+    padding: 10px;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+h1 {
+    font: weight 100px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 3px #000;
+}
+
+
+h2 {
+    font-size: 15px;
+    font-weight: 100px;
+    margin-right: 100px;
+    text-shadow: 0 0 3px #000;
+}
+
+a {
+    color: #00FF00;
+}
+
+a:hover {
+    text-shadow: 10px;
+    color: #00FF00;
+}
+
+/* project.html */
+
